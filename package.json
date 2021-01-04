@@ -23,5 +23,9 @@
     "next": "^10.0.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "node-sass": "^5.0.0"
   }
 }

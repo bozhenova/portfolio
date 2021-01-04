@@ -4,7 +4,7 @@ const Home = () => (
     <div className='navbar-wrapper'>
       <nav className='navbar navbar-expand-lg navbar-dark fj-mw9'>
         <a className='navbar-brand mr-3 font-weight-bold' href='#'>
-          FilipJerga
+          bozhenova
         </a>
         <button
           className='navbar-toggler'
@@ -169,7 +169,7 @@ const Home = () => (
               <img
                 src='https://via.placeholder.com/150'
                 className='avatar-image mr-2'></img>
-              <span className='avatar-title'>Filip Jerga</span>
+              <span className='avatar-title'>Margo Bozhenova</span>
             </div>
           </a>
           <a
@@ -187,7 +187,7 @@ const Home = () => (
               <img
                 src='https://via.placeholder.com/150'
                 className='avatar-image mr-2'></img>
-              <span className='avatar-title'>Filip Jerga</span>
+              <span className='avatar-title'>Margo Bozhenova</span>
             </div>
           </a>
           <a
@@ -205,7 +205,7 @@ const Home = () => (
               <img
                 src='https://via.placeholder.com/150'
                 className='avatar-image mr-2'></img>
-              <span className='avatar-title'>Filip Jerga</span>
+              <span className='avatar-title'>Margo Bozhenova</span>
             </div>
           </a>
         </div>
@@ -294,19 +294,19 @@ const Home = () => (
             <tr>
               <th>Some Topic Info</th>
               <td className='category'>General Discussion</td>
-              <td>Filip Jerga</td>
+              <td>Margo Bozhenova</td>
               <td>2</td>
             </tr>
             <tr>
               <th>Some Topic Info</th>
               <td className='category'>General Discussion</td>
-              <td>Filip Jerga</td>
+              <td>Margo Bozhenova</td>
               <td>2</td>
             </tr>
             <tr>
               <th>Some Topic Info</th>
               <td className='category'>General Discussion</td>
-              <td>Filip Jerga</td>
+              <td>Margo Bozhenova</td>
               <td>2</td>
             </tr>
           </tbody>
@@ -339,7 +339,7 @@ const Home = () => (
                       <div className='topic-header'>
                         <div className='topic-meta'>
                           <div className='name-container'>
-                            <span className='name'>Filip Jerga</span>
+                            <span className='name'>Margo Bozhenova</span>
                           </div>
                           <div className='date-container'>
                             <span className='date'>21h</span>
@@ -386,7 +386,7 @@ const Home = () => (
                       <div className='topic-header'>
                         <div className='topic-meta'>
                           <div className='name-container'>
-                            <span className='name'>Filip Jerga</span>
+                            <span className='name'>Margo Bozhenova</span>
                           </div>
                           <div className='date-container'>
                             <span className='date'>21h</span>
@@ -433,7 +433,7 @@ const Home = () => (
                       <div className='topic-header'>
                         <div className='topic-meta'>
                           <div className='name-container'>
-                            <span className='name'>Filip Jerga</span>
+                            <span className='name'>Margo Bozhenova</span>
                           </div>
                           <div className='date-container'>
                             <span className='date'>21h</span>
