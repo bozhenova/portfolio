@@ -1,5 +1,5 @@
-import Navbar from '../components/shared/Navbar';
-import Header from '../components/shared/Header';
+import Navbar from '@/components/shared/Navbar';
+import Header from '@/components/shared/Header';
 
 const Home = () => (
   <div className='portfolio-app'>
