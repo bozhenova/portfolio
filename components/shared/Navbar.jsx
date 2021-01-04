@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <div className='navbar-wrapper'>
       <nav className='navbar navbar-expand-lg navbar-dark fj-mw9'>
-        <a className='navbar-brand mr-3 font-weight-bold' href='#'>
+        <a className='navbar-brand mr-3 font-weight-bold' href='/'>
           Margo Bozhenova
         </a>
         <button
