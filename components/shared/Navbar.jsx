@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav'>
             <li className='nav-item mr-3'>
-              <a className='nav-link' href='/portfolios'>
+              <a className='nav-link' href='/portfolio'>
                 Portfolio
               </a>
             </li>
@@ -30,7 +30,7 @@ const Navbar = () => {
             </li>
             <li className='nav-item mr-3'>
               <a className='nav-link' href='#'>
-                Cv
+                CV
               </a>
             </li>
             <li className='nav-item mr-3'>
