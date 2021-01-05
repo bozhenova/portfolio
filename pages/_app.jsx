@@ -1,6 +1,6 @@
 import App from 'next/app';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from '@/components/shared/Navbar';
+import AppNavbar from '@/components/shared/Navbar';
 import Header from '@/components/shared/Header';
 import Footer from '../components/shared/Footer';
 import '@/styles/index.scss';
@@ -10,7 +10,7 @@ const MyApp = ({ Component, pageProps }) => {
 
   return (
     <div className='portfolio-app'>
-      <Navbar />
+      <AppNavbar />
       {pageProps.appData}
       {isHomePage() && <Header />}
       <div className='container'>
