@@ -1,4 +1,5 @@
 import axios from 'axios';
+import Link from 'next/link';
 import PortfolioCard from '@/components/portfolios/PortfolioCard';
 
 const fetchPortfolios = () => {
@@ -34,7 +35,11 @@ const Portfolio = ({ portfolios }) => {
         <div className='row'>
           {portfolios.map((portfolio) => (
             <div key={portfolio._id} className='col-md-4'>
-              <PortfolioCard portfolio={portfolio} />
+              <Link href={`/portfolio/${portfolio._id}`}>
+                <a className='card-link'>
+                  <PortfolioCard portfolio={portfolio} />
+                </a>
+              </Link>
             </div>
           ))}
         </div>
