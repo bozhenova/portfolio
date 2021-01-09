@@ -64,15 +64,18 @@ app.prepare().then(() => {
 
     type Query {
       hello: String
-      portfolio: Portfolio
+      portfolio(id: ID): Portfolio
       portfolios: [Portfolio]
   }
   `);
 
   const root = {
     hello: () => 'Hello',
-    portfolio: () => {
-      return data.portfolios[0];
+    portfolio: ({ id }) => {
+      const portfolio = data.portfolios.find((portfolio) => {
+        return portfolio._id === id;
+      });
+      return portfolio;
     },
     portfolios: () => {
       return data.portfolios;
