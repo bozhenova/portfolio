@@ -22,6 +22,10 @@ app.prepare().then(() => {
       portfolio(id: ID): Portfolio
       portfolios: [Portfolio]
   }
+
+    type Mutation {
+    createPortfolio(input: PortfolioInput): Portfolio
+  }
   `);
 
   const root = { ...portfolioResolvers };
